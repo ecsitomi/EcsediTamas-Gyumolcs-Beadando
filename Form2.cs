@@ -92,6 +92,7 @@ namespace EcsediTamas_Gyumolcs_Beadando
             Gyumolcs ujGyumolcs = new Gyumolcs(termekkod, nev, (int)numericUpDown_Mennyiseg.Value);
             Program.kezdolap.listBox_Gyumolcs.Items.Add(ujGyumolcs);
             this.Close();
+            //kész
         }
     }
 }
