@@ -8,6 +8,7 @@ namespace EcsediTamas_Gyumolcs_Beadando
 {
     internal static class Program
     {
+        public static Form1 kezdolap = null;
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -16,7 +17,8 @@ namespace EcsediTamas_Gyumolcs_Beadando
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            kezdolap = new Form1();
+            Application.Run(kezdolap);
         }
     }
 }
